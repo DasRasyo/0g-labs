@@ -63,6 +63,8 @@ git checkout v1.0.0-testnet
 make install
 
 sleep 8
+source $HOME/.bash_profile
+sleep 3
 
 echo -e "\033[35mInitializing the 0g\033[0m"
 
